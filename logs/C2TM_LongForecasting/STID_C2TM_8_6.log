@@ -1,0 +1,40 @@
+Args in experiment:
+Namespace(random_seed=2023, is_training=1, model_id='8_6', model='STID', data='C2TM', root_path='./datas/C2TM/', data_path='ETTh1.csv', n_part=24, features='M', target='OT', freq='h', checkpoints='./checkpoints/', seq_len=8, pred_len=6, num_workers=10, itr=1, train_epochs=10, batch_size=128, patience=3, learning_rate=0.002, weight_decay=0.0001, des='test', loss='mse', lradj='type1', pct_start=0.3, use_amp=False, use_gpu=True, gpu=0, use_multi_gpu=False, devices='0,1,2,3', test_flop=False, max_diffusion_step=2, cl_decay_steps=2000, filter_type='dual_random_walk', num_rnn_layers=2, rnn_units=64, use_curriculum_learning=False, patch_len=2, stride=2, fc_dropout=0.05, head_dropout=0.0, padding_patch='end', revin=1, affine=0, subtract_last=0, decomposition=0, kernel_size=25, individual=0, label_len=4, embed_type=0, enc_in=552, dec_in=552, c_out=552, d_model=512, n_heads=8, e_layers=2, d_layers=1, d_ff=2048, moving_avg=25, factor=1, distil=True, dropout=0.05, embed='timeF', activation='gelu', output_attention=False, do_predict=False, version='Fourier', mode_select='random', modes=64, L=3, base='legendre', cross_activation='tanh')
+Use GPU: cuda:0
+>>>>>>>start training : 8_6_STID_C2TM_ftM_sl8_ll4_pl6_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+data shape:  (48, 13269) 13269
+adj_mx shape:  (13269, 13269)
+data shape:  (120, 13269) 13269
+adj_mx shape:  (13269, 13269)
+data shape:  (24, 13269) 13269
+adj_mx shape:  (13269, 13269)
+MSE Loss
+	iters: 100, epoch: 1 | loss: 135.7506409
+	speed: 0.0095s/iter; left time: 9.2157s
+Epoch: 1 cost time: 0.9958186149597168
+Epoch: 1, Steps: 107 | Train Loss: 146.3052372 Vali Loss: 7.6951542 Test Loss: 9.6254845
+Validation loss decreased (inf --> 7.695154).  Saving model ...
+type1 => Adjust updating learning rate to 0.002
+	iters: 100, epoch: 2 | loss: 1304.1618652
+	speed: 0.0087s/iter; left time: 7.4853s
+Epoch: 2 cost time: 0.7007098197937012
+Epoch: 2, Steps: 107 | Train Loss: 2862.7959421 Vali Loss: 293.6723938 Test Loss: 135.9658356
+EarlyStopping counter: 1 out of 3
+type1 => Adjust updating learning rate to 0.001
+	iters: 100, epoch: 3 | loss: 77.6935349
+	speed: 0.0080s/iter; left time: 6.0864s
+Epoch: 3 cost time: 0.6897521018981934
+Epoch: 3, Steps: 107 | Train Loss: 880.5217793 Vali Loss: 26.1580791 Test Loss: 18.5056133
+EarlyStopping counter: 2 out of 3
+type1 => Adjust updating learning rate to 0.0005
+	iters: 100, epoch: 4 | loss: 47.4332542
+	speed: 0.0084s/iter; left time: 5.4282s
+Epoch: 4 cost time: 0.69378662109375
+Epoch: 4, Steps: 107 | Train Loss: 178.2508631 Vali Loss: 9.7901649 Test Loss: 11.2770872
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : 8_6_STID_C2TM_ftM_sl8_ll4_pl6_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+data shape:  (48, 13269) 13269
+adj_mx shape:  (13269, 13269)
+loading model.............
+mse:9.625484466552734, mae:0.35297438502311707, rse:1.0184365510940552

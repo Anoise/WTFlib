@@ -1,0 +1,70 @@
+Args in experiment:
+Namespace(random_seed=2023, is_training=1, model_id='8_5', model='Mvstgn', data='C2TM', root_path='./datas/C2TM/', data_path='ETTh1.csv', n_part=24, features='M', target='OT', freq='h', checkpoints='./checkpoints/', seq_len=8, pred_len=5, num_workers=10, itr=1, train_epochs=10, batch_size=128, patience=3, learning_rate=0.001, weight_decay=0.0001, des='test', loss='mse', lradj='Mvstgn', pct_start=0.3, use_amp=False, use_gpu=True, gpu=0, use_multi_gpu=False, devices='0,1,2,3', test_flop=False, max_diffusion_step=2, cl_decay_steps=2000, filter_type='dual_random_walk', num_rnn_layers=2, rnn_units=64, use_curriculum_learning=False, patch_len=2, stride=2, fc_dropout=0.05, head_dropout=0.0, padding_patch='end', revin=1, affine=0, subtract_last=0, decomposition=0, kernel_size=25, individual=0, label_len=4, embed_type=0, enc_in=552, dec_in=552, c_out=552, d_model=512, n_heads=8, e_layers=2, d_layers=1, d_ff=2048, moving_avg=25, factor=1, distil=True, dropout=0.05, embed='timeF', activation='gelu', output_attention=False, do_predict=False, version='Fourier', mode_select='random', modes=64, L=3, base='legendre', cross_activation='tanh')
+Use GPU: cuda:0
+>>>>>>>start training : 8_5_Mvstgn_C2TM_ftM_sl8_ll4_pl5_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+data shape:  (48, 13269) 13269
+adj_mx shape:  (13269, 13269)
+data shape:  (120, 13269) 13269
+adj_mx shape:  (13269, 13269)
+data shape:  (24, 13269) 13269
+adj_mx shape:  (13269, 13269)
+MSE Loss
+	iters: 100, epoch: 1 | loss: 6.0514560
+	speed: 0.0989s/iter; left time: 96.9896s
+Epoch: 1 cost time: 10.994432926177979
+Epoch: 1, Steps: 108 | Train Loss: 132.9728013 Vali Loss: 7.0352063 Test Loss: 9.2155037
+Validation loss decreased (inf --> 7.035206).  Saving model ...
+Updating learning rate to 0.0001
+	iters: 100, epoch: 2 | loss: 6.4247298
+	speed: 0.1214s/iter; left time: 106.0164s
+Epoch: 2 cost time: 10.983099937438965
+Epoch: 2, Steps: 108 | Train Loss: 112.4404241 Vali Loss: 6.9485722 Test Loss: 9.2221508
+Validation loss decreased (7.035206 --> 6.948572).  Saving model ...
+Updating learning rate to 0.0001
+	iters: 100, epoch: 3 | loss: 6.6907344
+	speed: 0.1084s/iter; left time: 82.8914s
+Epoch: 3 cost time: 9.83898639678955
+Epoch: 3, Steps: 108 | Train Loss: 89.7788369 Vali Loss: 6.9571934 Test Loss: 9.2473650
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 0.0001
+	iters: 100, epoch: 4 | loss: 15.4043827
+	speed: 0.1087s/iter; left time: 71.4133s
+Epoch: 4 cost time: 10.274123668670654
+Epoch: 4, Steps: 108 | Train Loss: 90.9787972 Vali Loss: 6.9564781 Test Loss: 9.2398243
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 0.0001
+	iters: 100, epoch: 5 | loss: 18.6622887
+	speed: 0.0964s/iter; left time: 52.9502s
+Epoch: 5 cost time: 8.736984729766846
+Epoch: 5, Steps: 108 | Train Loss: 73.7020456 Vali Loss: 6.9154611 Test Loss: 9.1991262
+Validation loss decreased (6.948572 --> 6.915461).  Saving model ...
+Updating learning rate to 0.0001
+	iters: 100, epoch: 6 | loss: 402.8562317
+	speed: 0.0964s/iter; left time: 42.5105s
+Epoch: 6 cost time: 8.885424852371216
+Epoch: 6, Steps: 108 | Train Loss: 88.1621846 Vali Loss: 6.8997841 Test Loss: 9.1953754
+Validation loss decreased (6.915461 --> 6.899784).  Saving model ...
+Updating learning rate to 0.0001
+	iters: 100, epoch: 7 | loss: 14.9063168
+	speed: 0.1021s/iter; left time: 33.9874s
+Epoch: 7 cost time: 9.654054880142212
+Epoch: 7, Steps: 108 | Train Loss: 188.8692689 Vali Loss: 6.9998722 Test Loss: 9.2828703
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 0.0001
+	iters: 100, epoch: 8 | loss: 29.1062222
+	speed: 0.0985s/iter; left time: 22.1685s
+Epoch: 8 cost time: 8.926793336868286
+Epoch: 8, Steps: 108 | Train Loss: 134.6745482 Vali Loss: 6.9822965 Test Loss: 9.2582340
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 0.0001
+	iters: 100, epoch: 9 | loss: 7.6151032
+	speed: 0.1048s/iter; left time: 12.2622s
+Epoch: 9 cost time: 10.033652544021606
+Epoch: 9, Steps: 108 | Train Loss: 139.1497101 Vali Loss: 7.0429091 Test Loss: 9.2983656
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : 8_5_Mvstgn_C2TM_ftM_sl8_ll4_pl5_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+data shape:  (48, 13269) 13269
+adj_mx shape:  (13269, 13269)
+loading model.............
+mse:9.195374488830566, mae:0.36010727286338806, rse:1.002714991569519

@@ -1,0 +1,86 @@
+Args in experiment:
+Namespace(random_seed=2023, is_training=1, model_id='8_6', model='Autoformer', data='C2TM', root_path='./datas/C2TM/', data_path='ETTh1.csv', n_part=24, features='M', target='OT', freq='h', checkpoints='./checkpoints/', seq_len=8, pred_len=6, num_workers=10, itr=1, train_epochs=10, batch_size=128, patience=3, learning_rate=0.0001, weight_decay=0.0, des='test', loss='mse', lradj='type1', pct_start=0.3, use_amp=False, use_gpu=True, gpu=0, use_multi_gpu=False, devices='0,1,2,3', test_flop=False, max_diffusion_step=2, cl_decay_steps=2000, filter_type='dual_random_walk', num_rnn_layers=2, rnn_units=64, use_curriculum_learning=False, patch_len=2, stride=2, fc_dropout=0.05, head_dropout=0.0, padding_patch='end', revin=1, affine=0, subtract_last=0, decomposition=0, kernel_size=25, individual=0, label_len=4, embed_type=0, enc_in=552, dec_in=552, c_out=552, d_model=512, n_heads=8, e_layers=2, d_layers=1, d_ff=2048, moving_avg=25, factor=1, distil=True, dropout=0.05, embed='timeF', activation='gelu', output_attention=False, do_predict=False, version='Fourier', mode_select='random', modes=64, L=3, base='legendre', cross_activation='tanh')
+Use GPU: cuda:0
+>>>>>>>start training : 8_6_Autoformer_C2TM_ftM_sl8_ll4_pl6_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+data shape:  (48, 13269) 13269
+adj_mx shape:  (13269, 13269)
+data shape:  (120, 13269) 13269
+adj_mx shape:  (13269, 13269)
+data shape:  (24, 13269) 13269
+adj_mx shape:  (13269, 13269)
+MSE Loss
+	iters: 100, epoch: 1 | loss: 856.8811646
+	speed: 0.0373s/iter; left time: 36.2559s
+Epoch: 1 cost time: 4.037358283996582
+Epoch: 1, Steps: 107 | Train Loss: 168.3576028 Vali Loss: 11.6594124 Test Loss: 11.8918266
+Validation loss decreased (inf --> 11.659412).  Saving model ...
+not in xxxx...
+type1 => Adjust updating learning rate to 0.0001
+	iters: 100, epoch: 2 | loss: 35.7508163
+	speed: 0.0357s/iter; left time: 30.8030s
+Epoch: 2 cost time: 2.8347530364990234
+Epoch: 2, Steps: 107 | Train Loss: 143.5255758 Vali Loss: 11.6916409 Test Loss: 11.8884611
+EarlyStopping counter: 1 out of 3
+not in xxxx...
+type1 => Adjust updating learning rate to 5e-05
+	iters: 100, epoch: 3 | loss: 17.1483192
+	speed: 0.0408s/iter; left time: 30.8571s
+Epoch: 3 cost time: 3.693619966506958
+Epoch: 3, Steps: 107 | Train Loss: 112.5598501 Vali Loss: 11.6349945 Test Loss: 11.8512478
+Validation loss decreased (11.659412 --> 11.634995).  Saving model ...
+not in xxxx...
+type1 => Adjust updating learning rate to 2.5e-05
+	iters: 100, epoch: 4 | loss: 40.6277161
+	speed: 0.0397s/iter; left time: 25.8045s
+Epoch: 4 cost time: 3.2076971530914307
+Epoch: 4, Steps: 107 | Train Loss: 112.9101612 Vali Loss: 11.6104126 Test Loss: 11.8425341
+Validation loss decreased (11.634995 --> 11.610413).  Saving model ...
+not in xxxx...
+type1 => Adjust updating learning rate to 1.25e-05
+	iters: 100, epoch: 5 | loss: 49.6541061
+	speed: 0.0353s/iter; left time: 19.1630s
+Epoch: 5 cost time: 2.92586350440979
+Epoch: 5, Steps: 107 | Train Loss: 93.0506510 Vali Loss: 11.5844526 Test Loss: 11.8331175
+Validation loss decreased (11.610413 --> 11.584453).  Saving model ...
+not in xxxx...
+type1 => Adjust updating learning rate to 6.25e-06
+	iters: 100, epoch: 6 | loss: 342.9816895
+	speed: 0.0367s/iter; left time: 15.9850s
+Epoch: 6 cost time: 2.9461305141448975
+Epoch: 6, Steps: 107 | Train Loss: 105.3892961 Vali Loss: 11.5780458 Test Loss: 11.8299408
+Validation loss decreased (11.584453 --> 11.578046).  Saving model ...
+not in xxxx...
+type1 => Adjust updating learning rate to 3.125e-06
+	iters: 100, epoch: 7 | loss: 19.9605236
+	speed: 0.0359s/iter; left time: 11.8154s
+Epoch: 7 cost time: 2.929727554321289
+Epoch: 7, Steps: 107 | Train Loss: 220.5000875 Vali Loss: 11.5674400 Test Loss: 11.8305635
+Validation loss decreased (11.578046 --> 11.567440).  Saving model ...
+not in xxxx...
+type1 => Adjust updating learning rate to 1.5625e-06
+	iters: 100, epoch: 8 | loss: 33.9330444
+	speed: 0.0365s/iter; left time: 8.1011s
+Epoch: 8 cost time: 3.129072427749634
+Epoch: 8, Steps: 107 | Train Loss: 167.7459663 Vali Loss: 11.5652685 Test Loss: 11.8289633
+Validation loss decreased (11.567440 --> 11.565269).  Saving model ...
+not in xxxx...
+type1 => Adjust updating learning rate to 7.8125e-07
+	iters: 100, epoch: 9 | loss: 19.3454781
+	speed: 0.0357s/iter; left time: 4.1052s
+Epoch: 9 cost time: 2.850248098373413
+Epoch: 9, Steps: 107 | Train Loss: 175.7723523 Vali Loss: 11.5641727 Test Loss: 11.8280773
+Validation loss decreased (11.565269 --> 11.564173).  Saving model ...
+not in xxxx...
+type1 => Adjust updating learning rate to 3.90625e-07
+	iters: 100, epoch: 10 | loss: 1183.7857666
+	speed: 0.0351s/iter; left time: 0.2806s
+Epoch: 10 cost time: 2.818119525909424
+Epoch: 10, Steps: 107 | Train Loss: 168.0421791 Vali Loss: 11.5639381 Test Loss: 11.8279104
+Validation loss decreased (11.564173 --> 11.563938).  Saving model ...
+not in xxxx...
+type1 => Adjust updating learning rate to 1.953125e-07
+>>>>>>>testing : 8_6_Autoformer_C2TM_ftM_sl8_ll4_pl6_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+data shape:  (48, 13269) 13269
+adj_mx shape:  (13269, 13269)
+loading model.............
+mse:11.827911376953125, mae:0.9939727187156677, rse:1.1289552450180054
