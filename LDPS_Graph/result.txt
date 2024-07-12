@@ -1,0 +1,375 @@
+Milano_MSE_36_36_DecomLinearV2_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.041856177151203156, mae:0.1380653828382492, rse:0.6143001317977905
+
+Milano_MSE_36_48_DecomLinearV2_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.039740659296512604, mae:0.13222219049930573, rse:0.6044832468032837
+
+Milano_MSE_36_72_DecomLinearV2_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.04063370078802109, mae:0.14017100632190704, rse:0.626281201839447
+
+Milano_MSE_36_24_DecomLinear_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.028647735714912415, mae:0.08576840162277222, rse:0.5122065544128418
+
+Milano_MSE_36_36_DecomLinear_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.032568998634815216, mae:0.09545224905014038, rse:0.5418798923492432
+
+Milano_MSE_36_48_DecomLinear_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.03520084545016289, mae:0.09577345848083496, rse:0.5689096450805664
+
+Milano_MSE_36_24_DecomLinearV2_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.034076541662216187, mae:0.11333782225847244, rse:0.5586344599723816
+
+Milano_MSE_36_36_DecomLinearV2_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.041856177151203156, mae:0.1380653828382492, rse:0.6143001317977905
+
+Milano_MSE_36_48_DecomLinearV2_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.039740659296512604, mae:0.13222219049930573, rse:0.6044832468032837
+
+Milano_MSE_36_72_DecomLinearV2_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.04063370078802109, mae:0.14017100632190704, rse:0.626281201839447
+
+Milano_MSE_36_24_DecomLinear_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.028647735714912415, mae:0.08576840162277222, rse:0.5122065544128418
+
+Milano_MSE_36_36_DecomLinear_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.032568998634815216, mae:0.09545224905014038, rse:0.5418798923492432
+
+Milano_MSE_36_48_DecomLinear_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.03520084545016289, mae:0.09577345848083496, rse:0.5689096450805664
+
+Milano_MSE_36_72_DecomLinear_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.03665318712592125, mae:0.09694774448871613, rse:0.594815194606781
+
+Milano_36_36_STID_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.08613615483045578, mae:0.17906197905540466, rse:0.8812389373779297
+
+Milano_36_36_Periodformer_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.6423270106315613, mae:0.5949686765670776, rse:2.4064619541168213
+
+Milano_36_36_DLinear_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.05905595421791077, mae:0.1674942523241043, rse:0.7296805381774902
+
+Milano_36_24_PatchTST_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.028090007603168488, mae:0.08503414690494537, rse:0.5071960687637329
+
+Milano_36_36_PatchTST_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.047085121273994446, mae:0.1212456002831459, rse:0.6515424251556396
+
+Milano_36_48_PatchTST_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.03379381448030472, mae:0.09518536925315857, rse:0.5574235916137695
+
+Milano_36_72_PatchTST_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.06338546425104141, mae:0.1425621211528778, rse:0.7822057604789734
+
+Milano_36_36_FEDformer_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.8409876227378845, mae:0.5968375205993652, rse:2.7535674571990967
+
+Milano_36_36_Autoformer_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.104551911354065, mae:0.7120227813720703, rse:3.1556873321533203
+
+Milano_36_36_Informer_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.6369942426681519, mae:0.9209293723106384, rse:3.8417093753814697
+
+Milano_36_36_Transformer_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.3621188402175903, mae:0.826830267906189, rse:3.5043575763702393
+
+Milano_36_36_Mvstgn_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.13219870626926422, mae:0.2671385705471039, rse:1.0917282104492188
+
+Milano_36_36_Gwnet_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.04982485994696617, mae:0.14598508179187775, rse:0.6702302098274231
+
+Milano_MSE_36_24_DecomLinearV2_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.034076541662216187, mae:0.11333782225847244, rse:0.5586344599723816
+
+Milano_MSE_36_36_DecomLinearV2_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.041856177151203156, mae:0.1380653828382492, rse:0.6143001317977905
+
+Milano_MSE_36_48_DecomLinearV2_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.039740659296512604, mae:0.13222219049930573, rse:0.6044832468032837
+
+Milano_MSE_36_72_DecomLinearV2_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.04063370078802109, mae:0.14017100632190704, rse:0.626281201839447
+
+Milano_MSE_36_24_DecomLinear_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.028647735714912415, mae:0.08576840162277222, rse:0.5122065544128418
+
+Milano_MSE_36_36_DecomLinear_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.032568998634815216, mae:0.09545224905014038, rse:0.5418798923492432
+
+Milano_MSE_36_48_DecomLinear_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.03520084545016289, mae:0.09577345848083496, rse:0.5689096450805664
+
+Milano_MSE_36_72_DecomLinear_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.03665318712592125, mae:0.09694774448871613, rse:0.594815194606781
+
+Milano_36_24_STID_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.04276106134057045, mae:0.11643059551715851, rse:0.6257835030555725
+
+Milano_36_36_STID_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.08613615483045578, mae:0.17906197905540466, rse:0.8812389373779297
+
+Milano_36_48_STID_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.11316454410552979, mae:0.2001844346523285, rse:1.0200510025024414
+
+Milano_36_72_STID_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.05605202540755272, mae:0.12714141607284546, rse:0.7355663776397705
+
+Milano_36_24_Periodformer_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.4868868887424469, mae:0.5401962399482727, rse:2.1116108894348145
+
+Milano_36_36_Periodformer_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.6423270106315613, mae:0.5949686765670776, rse:2.4064619541168213
+
+Milano_36_48_Periodformer_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.45322152972221375, mae:0.5216741561889648, rse:2.0413711071014404
+
+Milano_36_72_Periodformer_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.3916706144809723, mae:0.48102006316185, rse:1.94440495967865
+
+Milano_36_24_DLinear_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.05852246284484863, mae:0.1669171154499054, rse:0.7320843935012817
+
+Milano_36_36_DLinear_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.05905595421791077, mae:0.1674942523241043, rse:0.7296805381774902
+
+Milano_36_48_DLinear_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.06532779335975647, mae:0.18594904243946075, rse:0.7750250101089478
+
+Milano_36_72_DLinear_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.06296627968549728, mae:0.17856307327747345, rse:0.779615044593811
+
+Milano_36_24_PatchTST_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.028090007603168488, mae:0.08503414690494537, rse:0.5071960687637329
+
+Milano_36_36_PatchTST_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.047085121273994446, mae:0.1212456002831459, rse:0.6515424251556396
+
+Milano_36_48_PatchTST_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.03379381448030472, mae:0.09518536925315857, rse:0.5574235916137695
+
+Milano_36_72_PatchTST_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.06338546425104141, mae:0.1425621211528778, rse:0.7822057604789734
+
+Milano_36_24_FEDformer_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.7125011682510376, mae:0.5573367476463318, rse:2.554421901702881
+
+Milano_36_36_FEDformer_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.8409876227378845, mae:0.5968375205993652, rse:2.7535674571990967
+
+Milano_36_48_FEDformer_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.935253918170929, mae:0.6461555361747742, rse:2.9324557781219482
+
+Milano_36_72_FEDformer_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.0738359689712524, mae:0.6990911960601807, rse:3.219550132751465
+
+Milano_36_24_Autoformer_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.021193265914917, mae:0.6525568962097168, rse:3.058115005493164
+
+Milano_36_36_Autoformer_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.104551911354065, mae:0.7120227813720703, rse:3.1556873321533203
+
+Milano_36_48_Autoformer_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.9394756555557251, mae:0.6523056626319885, rse:2.9390666484832764
+
+Milano_36_72_Autoformer_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.0928139686584473, mae:0.7222414612770081, rse:3.247875213623047
+
+Milano_36_24_Informer_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.659615397453308, mae:0.9274497032165527, rse:3.8985543251037598
+
+Milano_36_36_Informer_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.637097716331482, mae:0.9209679961204529, rse:3.8418304920196533
+
+Milano_36_48_Informer_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.6588120460510254, mae:0.9238051772117615, rse:3.905397891998291
+
+Milano_36_72_Informer_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.6412925720214844, mae:0.9176587462425232, rse:3.9803311824798584
+
+Milano_36_24_Transformer_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.5227620601654053, mae:0.8740279078483582, rse:3.7343573570251465
+
+Milano_36_36_Transformer_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.3621188402175903, mae:0.826830267906189, rse:3.5043575763702393
+
+Milano_36_48_Transformer_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.3915647268295288, mae:0.8345022797584534, rse:3.576995611190796
+
+Milano_36_72_Transformer_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:1.2899795770645142, mae:0.8025742173194885, rse:3.5287234783172607
+
+Milano_36_24_Mvstgn_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.13288362324237823, mae:0.2665961980819702, rse:1.1031525135040283
+
+Milano_36_36_Mvstgn_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.13219870626926422, mae:0.2671385705471039, rse:1.0917282104492188
+
+Milano_36_48_Mvstgn_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.1131722629070282, mae:0.23425635695457458, rse:1.0200856924057007
+
+Milano_36_72_Mvstgn_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.13041193783283234, mae:0.2375456541776657, rse:1.1219794750213623
+
+Milano_36_24_Gwnet_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.047681696712970734, mae:0.1505104899406433, rse:0.6608086228370667
+
+Milano_36_36_Gwnet_Milano_Call_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.04982485994696617, mae:0.14598508179187775, rse:0.6702302098274231
+
+Milano_36_48_Gwnet_Milano_Call_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.05103554576635361, mae:0.13951201736927032, rse:0.6850196719169617
+
+Milano_36_72_Gwnet_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.07300195842981339, mae:0.15775038301944733, rse:0.8394473791122437
+
+CBSU_36_24_DecomLinearV2_CBSU_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.013772370293736458, mae:0.05384625494480133, rse:0.43564051389694214
+
+CBSU_36_36_DecomLinearV2_CBSU_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.014609736390411854, mae:0.05528359115123749, rse:0.4481760263442993
+
+CBSU_36_48_DecomLinearV2_CBSU_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.014903698116540909, mae:0.05569981411099434, rse:0.45223215222358704
+
+CBSU_36_72_DecomLinearV2_CBSU_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.0156882144510746, mae:0.0569286085665226, rse:0.4632450342178345
+
+CBSU_36_24_DecomLinear_CBSU_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.015192586928606033, mae:0.0548676997423172, rse:0.4575512707233429
+
+CBSU_36_36_DecomLinear_CBSU_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.014857549220323563, mae:0.055270880460739136, rse:0.45196104049682617
+
+CBSU_36_48_DecomLinear_CBSU_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.015125607140362263, mae:0.0554993711411953, rse:0.4555864930152893
+
+CBSU_36_72_DecomLinear_CBSU_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.015775805339217186, mae:0.056491151452064514, rse:0.4645364284515381
+
+CBSU_36_24_STID_CBSU_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.014508627355098724, mae:0.058631688356399536, rse:0.44713330268859863
+
+CBSU_36_36_STID_CBSU_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.016406651586294174, mae:0.06471025198698044, rse:0.4749385118484497
+
+CBSU_36_48_STID_CBSU_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.017106221988797188, mae:0.07035418599843979, rse:0.4844974875450134
+
+CBSU_36_72_STID_CBSU_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.019622966647148132, mae:0.0685688778758049, rse:0.5180913805961609
+
+CBSU_36_24_Periodformer_CBSU_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.039876166731119156, mae:0.10556868463754654, rse:0.7412770390510559
+
+CBSU_36_36_Periodformer_CBSU_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.043173421174287796, mae:0.11019044369459152, rse:0.7704343199729919
+
+CBSU_36_48_Periodformer_CBSU_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.04235263913869858, mae:0.1070220097899437, rse:0.7623506188392639
+
+CBSU_36_72_Periodformer_CBSU_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.04302789643406868, mae:0.10874748229980469, rse:0.767183244228363
+
+CBSU_36_24_DLinear_CBSU_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.019374584779143333, mae:0.06865284591913223, rse:0.516701877117157
+
+CBSU_36_36_DLinear_CBSU_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.020496636629104614, mae:0.07119326293468475, rse:0.5308461785316467
+
+CBSU_36_48_DLinear_CBSU_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.020427081733942032, mae:0.07080670446157455, rse:0.5294411182403564
+
+CBSU_36_72_DLinear_CBSU_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.02109445445239544, mae:0.07192964851856232, rse:0.5371655821800232
+
+CBSU_36_24_PatchTST_CBSU_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.01592380367219448, mae:0.061736322939395905, rse:0.46843281388282776
+
+CBSU_36_36_PatchTST_CBSU_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.017094096168875694, mae:0.06395894289016724, rse:0.4847864806652069
+
+CBSU_36_48_PatchTST_CBSU_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.01731022633612156, mae:0.06427176296710968, rse:0.4873778522014618
+
+CBSU_36_72_PatchTST_CBSU_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.017132384702563286, mae:0.06295473873615265, rse:0.48409757018089294
+
+CBSU_36_24_FEDformer_CBSU_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.05751887336373329, mae:0.13948774337768555, rse:0.8902849555015564
+
+CBSU_36_36_FEDformer_CBSU_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.0591268390417099, mae:0.1421983540058136, rse:0.9016120433807373
+
+CBSU_36_48_FEDformer_CBSU_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.05921230837702751, mae:0.14090153574943542, rse:0.9014061093330383
+
+CBSU_36_72_FEDformer_CBSU_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.06688910722732544, mae:0.15201500058174133, rse:0.9565369486808777
+
+CBSU_36_24_Autoformer_CBSU_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.05843352898955345, mae:0.15025076270103455, rse:0.8973356485366821
+
+CBSU_36_36_Autoformer_CBSU_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.06289195269346237, mae:0.15817266702651978, rse:0.9298757910728455
+
+CBSU_36_48_Autoformer_CBSU_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.06545640528202057, mae:0.15081752836704254, rse:0.9477429389953613
+
+CBSU_36_72_Autoformer_CBSU_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.0672527328133583, mae:0.1506701558828354, rse:0.9591333866119385
+
+CBSU_36_24_Informer_CBSU_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.13467912375926971, mae:0.21202009916305542, rse:1.3623038530349731
+
+CBSU_36_36_Informer_CBSU_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.14120671153068542, mae:0.21786923706531525, rse:1.3933334350585938
+
+CBSU_36_48_Informer_CBSU_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.10962682217359543, mae:0.19605931639671326, rse:1.2265151739120483
+
+CBSU_36_72_Informer_CBSU_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.11902882158756256, mae:0.20979291200637817, rse:1.2759983539581299
+
+CBSU_36_24_Transformer_CBSU_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.1261703222990036, mae:0.2177761197090149, rse:1.3185677528381348
+
+CBSU_36_36_Transformer_CBSU_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.12156949192285538, mae:0.20808899402618408, rse:1.2928247451782227
+
+CBSU_36_48_Transformer_CBSU_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.1346987634897232, mae:0.21684645116329193, rse:1.359553575515747
+
+CBSU_36_72_Transformer_CBSU_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.11502981930971146, mae:0.20752936601638794, rse:1.254380464553833
+
+CBSU_36_24_Mvstgn_CBSU_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.01769295148551464, mae:0.07975368201732635, rse:0.49376916885375977
+
+CBSU_36_36_Mvstgn_CBSU_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.01837158016860485, mae:0.07299378514289856, rse:0.5025747418403625
+
+CBSU_36_48_Mvstgn_CBSU_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.01648477464914322, mae:0.06350312381982803, rse:0.475615531206131
+
+CBSU_36_72_Mvstgn_CBSU_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.01999661885201931, mae:0.07138387113809586, rse:0.5230007767677307
+
+CBSU_36_24_Gwnet_CBSU_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.015386019833385944, mae:0.06479386985301971, rse:0.4604547917842865
+
+CBSU_36_36_Gwnet_CBSU_ftM_sl36_ll18_pl36_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.016386788338422775, mae:0.0679461658000946, rse:0.47465091943740845
+
+CBSU_36_48_Gwnet_CBSU_ftM_sl36_ll18_pl48_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.01654752902686596, mae:0.06544051319360733, rse:0.476519912481308
+
+CBSU_36_72_Gwnet_CBSU_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.017927046865224838, mae:0.06608426570892334, rse:0.49519750475883484
+
+Milano_36_72_PatchTST_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:0.06338546425104141, mae:0.1425621211528778, rse:0.7822057604789734
+
+C2TM_8_4_DecomLinear_C2TM_Visual_ftM_sl8_ll4_pl4_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0  
+mse:9.056792259216309, mae:0.17054425179958344, rse:1.000643014907837
+

@@ -1,0 +1,106 @@
+Args in experiment:
+Namespace(random_seed=2023, is_training=1, model_id='Milano_36_72', model='FEDformer', data='Milano_Call', root_path='../data_trfc/Milano/', n_part=24, features='M', target='OT', freq='h', checkpoints='./checkpoints/', seq_len=36, pred_len=72, num_workers=10, itr=1, train_epochs=10, batch_size=128, patience=3, learning_rate=0.0001, weight_decay=0.0, des='test', loss='mse', lradj='type1', pct_start=0.3, use_amp=False, use_gpu=True, gpu=0, use_multi_gpu=False, devices='0,1,2,3', test_flop=False, max_diffusion_step=2, cl_decay_steps=2000, filter_type='dual_random_walk', num_rnn_layers=2, rnn_units=64, use_curriculum_learning=False, patch_len=2, stride=2, fc_dropout=0.05, head_dropout=0.0, padding_patch='end', revin=1, affine=0, subtract_last=0, decomposition=0, kernel_size=25, individual=0, embed_type=0, enc_in=416, dec_in=416, c_out=416, d_model=512, n_heads=8, e_layers=2, d_layers=1, d_ff=2048, moving_avg=25, factor=1, distil=True, dropout=0.05, embed='timeF', activation='gelu', output_attention=False, do_predict=False, version='Fourier', mode_select='random', modes=64, L=3, base='legendre', cross_activation='tanh', label_len=18)
+Use GPU: cuda:0
+fourier enhanced block used!
+modes=64, index=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+fourier enhanced block used!
+modes=64, index=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+ fourier enhanced cross attention used!
+modes_q=45, index_q=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+modes_kv=18, index_kv=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+enc_modes: 18, dec_modes: 45
+>>>>>>>start training : Milano_36_72_FEDformer_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+(300, 10000, 2) Call ...
+data shape:  (300, 10000, 2) 10000
+(10000, 10000) adj_max shape ...
+(988, 10000, 2) Call ...
+data shape:  (988, 10000, 2) 10000
+(10000, 10000) adj_max shape ...
+(200, 10000, 2) Call ...
+data shape:  (200, 10000, 2) 10000
+(10000, 10000) adj_max shape ...
+	iters: 100, epoch: 1 | loss: 11.7899103
+	speed: 0.1232s/iter; left time: 1073.1197s
+	iters: 200, epoch: 1 | loss: 13.6094913
+	speed: 0.1119s/iter; left time: 963.8932s
+	iters: 300, epoch: 1 | loss: 9.7257719
+	speed: 0.1195s/iter; left time: 1016.6544s
+	iters: 400, epoch: 1 | loss: 9.0586576
+	speed: 0.1156s/iter; left time: 972.3692s
+	iters: 500, epoch: 1 | loss: 4.6964965
+	speed: 0.1094s/iter; left time: 909.3643s
+	iters: 600, epoch: 1 | loss: 6.9701996
+	speed: 0.1068s/iter; left time: 876.7665s
+	iters: 700, epoch: 1 | loss: 8.7965698
+	speed: 0.1142s/iter; left time: 926.5806s
+	iters: 800, epoch: 1 | loss: 8.4736404
+	speed: 0.1191s/iter; left time: 953.9815s
+Epoch: 1 cost time: 102.6827757358551
+Epoch: 1, Steps: 881 | Train Loss: 9.0755279 Vali Loss: 1.0578991 Test Loss: 1.0738364
+Validation loss decreased (inf --> 1.057899).  Saving model ...
+type1 => Adjust updating learning rate to 0.0001
+	iters: 100, epoch: 2 | loss: 8.5043631
+	speed: 0.2606s/iter; left time: 2040.6757s
+	iters: 200, epoch: 2 | loss: 10.3597364
+	speed: 0.1184s/iter; left time: 915.0269s
+	iters: 300, epoch: 2 | loss: 6.0843377
+	speed: 0.1280s/iter; left time: 976.4337s
+	iters: 400, epoch: 2 | loss: 3.5594544
+	speed: 0.1218s/iter; left time: 916.9998s
+	iters: 500, epoch: 2 | loss: 4.4328322
+	speed: 0.1064s/iter; left time: 790.2399s
+	iters: 600, epoch: 2 | loss: 3.1474836
+	speed: 0.1043s/iter; left time: 764.6167s
+	iters: 700, epoch: 2 | loss: 9.5042324
+	speed: 0.1018s/iter; left time: 735.7004s
+	iters: 800, epoch: 2 | loss: 8.3576651
+	speed: 0.1206s/iter; left time: 860.2108s
+Epoch: 2 cost time: 99.48705983161926
+Epoch: 2, Steps: 881 | Train Loss: 6.1768899 Vali Loss: 7.7243237 Test Loss: 7.5752625
+EarlyStopping counter: 1 out of 3
+type1 => Adjust updating learning rate to 5e-05
+	iters: 100, epoch: 3 | loss: 5.9373937
+	speed: 0.2958s/iter; left time: 2055.3194s
+	iters: 200, epoch: 3 | loss: 9.7236414
+	speed: 0.1170s/iter; left time: 801.1825s
+	iters: 300, epoch: 3 | loss: 6.2948127
+	speed: 0.1013s/iter; left time: 683.9898s
+	iters: 400, epoch: 3 | loss: 3.5528731
+	speed: 0.1142s/iter; left time: 759.1381s
+	iters: 500, epoch: 3 | loss: 4.6629686
+	speed: 0.1073s/iter; left time: 702.7671s
+	iters: 600, epoch: 3 | loss: 1.4179267
+	speed: 0.0914s/iter; left time: 589.2451s
+	iters: 700, epoch: 3 | loss: 6.6088290
+	speed: 0.0991s/iter; left time: 629.0195s
+	iters: 800, epoch: 3 | loss: 6.7644329
+	speed: 0.1043s/iter; left time: 651.7377s
+Epoch: 3 cost time: 95.30258464813232
+Epoch: 3, Steps: 881 | Train Loss: 5.5990698 Vali Loss: 5.9836578 Test Loss: 5.8956699
+EarlyStopping counter: 2 out of 3
+type1 => Adjust updating learning rate to 2.5e-05
+	iters: 100, epoch: 4 | loss: 8.4576664
+	speed: 0.2622s/iter; left time: 1590.7561s
+	iters: 200, epoch: 4 | loss: 11.5518866
+	speed: 0.1073s/iter; left time: 640.0961s
+	iters: 300, epoch: 4 | loss: 6.0835390
+	speed: 0.1172s/iter; left time: 687.7236s
+	iters: 400, epoch: 4 | loss: 3.8505392
+	speed: 0.1185s/iter; left time: 683.3980s
+	iters: 500, epoch: 4 | loss: 4.6035743
+	speed: 0.1145s/iter; left time: 648.9794s
+	iters: 600, epoch: 4 | loss: 2.0107710
+	speed: 0.1128s/iter; left time: 628.2625s
+	iters: 700, epoch: 4 | loss: 6.5233235
+	speed: 0.1206s/iter; left time: 659.6121s
+	iters: 800, epoch: 4 | loss: 6.6333337
+	speed: 0.1051s/iter; left time: 563.9543s
+Epoch: 4 cost time: 100.27242350578308
+Epoch: 4, Steps: 881 | Train Loss: 6.2444077 Vali Loss: 5.8547158 Test Loss: 5.7834206
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Milano_36_72_FEDformer_Milano_Call_ftM_sl36_ll18_pl72_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+(300, 10000, 2) Call ...
+data shape:  (300, 10000, 2) 10000
+(10000, 10000) adj_max shape ...
+loading model.............

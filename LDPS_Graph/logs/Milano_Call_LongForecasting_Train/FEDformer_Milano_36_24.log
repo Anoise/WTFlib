@@ -1,0 +1,114 @@
+Args in experiment:
+Namespace(random_seed=2023, is_training=1, model_id='Milano_36_24', model='FEDformer', data='Milano_Call', root_path='../data_trfc/Milano/', n_part=24, features='M', target='OT', freq='h', checkpoints='./checkpoints/', seq_len=36, pred_len=24, num_workers=10, itr=1, train_epochs=10, batch_size=128, patience=3, learning_rate=0.0001, weight_decay=0.0, des='test', loss='mse', lradj='type1', pct_start=0.3, use_amp=False, use_gpu=True, gpu=0, use_multi_gpu=False, devices='0,1,2,3', test_flop=False, max_diffusion_step=2, cl_decay_steps=2000, filter_type='dual_random_walk', num_rnn_layers=2, rnn_units=64, use_curriculum_learning=False, patch_len=2, stride=2, fc_dropout=0.05, head_dropout=0.0, padding_patch='end', revin=1, affine=0, subtract_last=0, decomposition=0, kernel_size=25, individual=0, embed_type=0, enc_in=416, dec_in=416, c_out=416, d_model=512, n_heads=8, e_layers=2, d_layers=1, d_ff=2048, moving_avg=25, factor=1, distil=True, dropout=0.05, embed='timeF', activation='gelu', output_attention=False, do_predict=False, version='Fourier', mode_select='random', modes=64, L=3, base='legendre', cross_activation='tanh', label_len=18)
+Use GPU: cuda:0
+fourier enhanced block used!
+modes=64, index=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+fourier enhanced block used!
+modes=64, index=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+ fourier enhanced cross attention used!
+modes_q=21, index_q=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+modes_kv=18, index_kv=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+enc_modes: 18, dec_modes: 21
+>>>>>>>start training : Milano_36_24_FEDformer_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+(300, 10000, 2) Call ...
+data shape:  (300, 10000, 2) 10000
+(10000, 10000) adj_max shape ...
+(988, 10000, 2) Call ...
+data shape:  (988, 10000, 2) 10000
+(10000, 10000) adj_max shape ...
+(200, 10000, 2) Call ...
+data shape:  (200, 10000, 2) 10000
+(10000, 10000) adj_max shape ...
+	iters: 100, epoch: 1 | loss: 12.9029055
+	speed: 0.0875s/iter; left time: 804.2960s
+	iters: 200, epoch: 1 | loss: 13.3378716
+	speed: 0.0878s/iter; left time: 798.0543s
+	iters: 300, epoch: 1 | loss: 9.9385233
+	speed: 0.0879s/iter; left time: 790.1228s
+	iters: 400, epoch: 1 | loss: 9.3994122
+	speed: 0.0700s/iter; left time: 622.4801s
+	iters: 500, epoch: 1 | loss: 3.3579578
+	speed: 0.0673s/iter; left time: 591.8339s
+	iters: 600, epoch: 1 | loss: 6.6601562
+	speed: 0.0785s/iter; left time: 681.9858s
+	iters: 700, epoch: 1 | loss: 5.4676895
+	speed: 0.0833s/iter; left time: 715.8872s
+	iters: 800, epoch: 1 | loss: 4.1110559
+	speed: 0.0803s/iter; left time: 682.1354s
+	iters: 900, epoch: 1 | loss: 5.5446792
+	speed: 0.0703s/iter; left time: 590.1774s
+Epoch: 1 cost time: 73.09112787246704
+Epoch: 1, Steps: 929 | Train Loss: 7.9975296 Vali Loss: 0.7414842 Test Loss: 0.7125013
+Validation loss decreased (inf --> 0.741484).  Saving model ...
+type1 => Adjust updating learning rate to 0.0001
+	iters: 100, epoch: 2 | loss: 12.0821123
+	speed: 0.1477s/iter; left time: 1220.2086s
+	iters: 200, epoch: 2 | loss: 17.6930408
+	speed: 0.0812s/iter; left time: 662.6245s
+	iters: 300, epoch: 2 | loss: 2.1806121
+	speed: 0.0810s/iter; left time: 652.9738s
+	iters: 400, epoch: 2 | loss: 5.3524933
+	speed: 0.0810s/iter; left time: 645.0015s
+	iters: 500, epoch: 2 | loss: 4.7788343
+	speed: 0.0828s/iter; left time: 651.0476s
+	iters: 600, epoch: 2 | loss: 1.7136168
+	speed: 0.0921s/iter; left time: 715.0258s
+	iters: 700, epoch: 2 | loss: 10.0556545
+	speed: 0.0920s/iter; left time: 705.1473s
+	iters: 800, epoch: 2 | loss: 1.3820136
+	speed: 0.0920s/iter; left time: 695.8114s
+	iters: 900, epoch: 2 | loss: 7.9483895
+	speed: 0.0919s/iter; left time: 686.0270s
+Epoch: 2 cost time: 80.15364146232605
+Epoch: 2, Steps: 929 | Train Loss: 5.7250352 Vali Loss: 8.8827705 Test Loss: 8.9541702
+EarlyStopping counter: 1 out of 3
+type1 => Adjust updating learning rate to 5e-05
+	iters: 100, epoch: 3 | loss: 6.4716468
+	speed: 0.1589s/iter; left time: 1165.2959s
+	iters: 200, epoch: 3 | loss: 16.5442123
+	speed: 0.0807s/iter; left time: 583.7047s
+	iters: 300, epoch: 3 | loss: 1.5391080
+	speed: 0.0797s/iter; left time: 568.8543s
+	iters: 400, epoch: 3 | loss: 5.2884974
+	speed: 0.0803s/iter; left time: 564.4323s
+	iters: 500, epoch: 3 | loss: 6.1160498
+	speed: 0.0864s/iter; left time: 598.6900s
+	iters: 600, epoch: 3 | loss: 2.4094877
+	speed: 0.0832s/iter; left time: 568.2650s
+	iters: 700, epoch: 3 | loss: 7.6715918
+	speed: 0.0831s/iter; left time: 559.4540s
+	iters: 800, epoch: 3 | loss: 1.1498687
+	speed: 0.0896s/iter; left time: 594.5673s
+	iters: 900, epoch: 3 | loss: 5.9985876
+	speed: 0.0896s/iter; left time: 585.4315s
+Epoch: 3 cost time: 78.23816418647766
+Epoch: 3, Steps: 929 | Train Loss: 5.5129528 Vali Loss: 6.1666951 Test Loss: 6.0111117
+EarlyStopping counter: 2 out of 3
+type1 => Adjust updating learning rate to 2.5e-05
+	iters: 100, epoch: 4 | loss: 8.8418579
+	speed: 0.1645s/iter; left time: 1053.3202s
+	iters: 200, epoch: 4 | loss: 12.1042280
+	speed: 0.0907s/iter; left time: 571.9157s
+	iters: 300, epoch: 4 | loss: 1.5989062
+	speed: 0.0765s/iter; left time: 474.3467s
+	iters: 400, epoch: 4 | loss: 5.2015953
+	speed: 0.0748s/iter; left time: 456.3634s
+	iters: 500, epoch: 4 | loss: 4.8275785
+	speed: 0.0744s/iter; left time: 446.9106s
+	iters: 600, epoch: 4 | loss: 1.7645006
+	speed: 0.0861s/iter; left time: 508.5706s
+	iters: 700, epoch: 4 | loss: 4.9293337
+	speed: 0.0918s/iter; left time: 532.9071s
+	iters: 800, epoch: 4 | loss: 1.0753483
+	speed: 0.0915s/iter; left time: 522.1396s
+	iters: 900, epoch: 4 | loss: 4.9738355
+	speed: 0.0917s/iter; left time: 514.0204s
+Epoch: 4 cost time: 79.19923233985901
+Epoch: 4, Steps: 929 | Train Loss: 4.8955682 Vali Loss: 4.6642475 Test Loss: 4.5781484
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : Milano_36_24_FEDformer_Milano_Call_ftM_sl36_ll18_pl24_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_test_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+(300, 10000, 2) Call ...
+data shape:  (300, 10000, 2) 10000
+(10000, 10000) adj_max shape ...
+loading model.............
