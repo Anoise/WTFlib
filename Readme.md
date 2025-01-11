@@ -147,5 +147,17 @@ Place figures here.
 If you find this repo useful, please cite our paper.
 
 ```
-Come soon!
+Daojun Liang, Haixia Zhang , Dongfeng Yuan. and Minggao Zhang, Progressive Supervision via Label Decomposition: An long-term and large-scale wireless traffic forecasting method. Knowledge-Based Systems, 305, p.112622, 2024.
+
+@article{LiangPSLD2024,
+  title   = {Progressive Supervision via Label Decomposition: An long-term and large-scale wireless traffic forecasting method},
+  author  = {Daojun Liang and Haixia Zhang and Dongfeng Yuan and Minggao Zhang},
+  journal = {Knowledge-Based Systems},
+  volume  = {305},
+  pages   = {112622},
+  year    = {2024},
+  issn    = {0950-7051},
+  doi     = {https://doi.org/10.1016/j.knosys.2024.112622},
+  url     = {https://www.sciencedirect.com/science/article/pii/S0950705124012565}
+}
 ```
