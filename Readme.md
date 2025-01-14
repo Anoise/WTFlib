@@ -23,7 +23,7 @@ Till November 2023, the top three models for short- and long-term WTF tasks are:
 
 **Compared models of this leaderboard.** ☑ means that their codes have already been included in this repo.
 
-  - [x] **PSLinear** -  Progressively Supervision based on Label Decomposition: Towards Long-Term Wireless Traffic Forecasting on Large-Scale Graphs. [[arXiv 2025]]([https://arxiv.org/abs/--](http://arxiv.org/abs/2501.06255)) [[Code]]([https://github.com/Anoise/PSLD](https://github.com/Anoise/WTFlib)).
+  - [x] **PSLinear** -  Progressively Supervision based on Label Decomposition: Towards Long-Term Wireless Traffic Forecasting on Large-Scale Graphs. [arXiv 2025](http://arxiv.org/abs/2501.06255), [Code](https://github.com/Anoise/WTFlib).
 
   - [x] **PatchTST** - A Time Series is Worth 64 Words: Long-term Forecasting with Transformers. [[ICLR 2023]](https://openreview.net/pdf?id=Jbdc0vTOcol) [[Code]](https://github.com/thuml/Time-Series-Library/blob/main/models/PatchTST.py).
 
