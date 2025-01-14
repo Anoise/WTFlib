@@ -16,14 +16,14 @@ Till November 2023, the top three models for short- and long-term WTF tasks are:
 
 | Model<br>Ranking | Long-term<br>Forecasting                          | Short-term<br>Forecasting                                    | Runtime                                            |
 | ---------------- |---------------------------------------------------| ------------------------------------------------------------ |----------------------------------------------------|
-| 🥇 1st            | [PSLinear](https://github.com/Anoise/PSLD)        | [PSLinear](https://github.com/Anoise/PSLD)        | [DLinear](https://github.com/cure-lab/LTSF-Linear) |
-| 🥈 2nd            | [PatchTST](https://github.com/yuqinie98/PatchTST) | [PatchTST](https://github.com/yuqinie98/PatchTST) | [PSLinear](https://github.com/Anoise/PSLD)         |
+| 🥇 1st            | [PSLinear](http://arxiv.org/abs/2501.06255)        | [PSLinear](http://arxiv.org/abs/2501.06255)        | [DLinear](https://github.com/cure-lab/LTSF-Linear) |
+| 🥈 2nd            | [PatchTST](https://github.com/yuqinie98/PatchTST) | [PatchTST](https://github.com/yuqinie98/PatchTST) | [PSLinear](http://arxiv.org/abs/2501.06255)         |
 | 🥉 3rd            | [GWNet](https://arxiv.org/abs/1906.00121)         | [FEDformer](https://github.com/MAZiqing/FEDformer) | [STID](https://github.com/zezhishao/STID)          |
 
 
 **Compared models of this leaderboard.** ☑ means that their codes have already been included in this repo.
 
-  - [x] **PSLinear** -  Progressively Supervision based on Label Decomposition: Towards Long-Term Wireless Traffic Forecasting on Large-Scale Graphs. [[arXiv 2023]](https://arxiv.org/abs/--) [[Code]](https://github.com/Anoise).
+  - [x] **PSLinear** -  Progressively Supervision based on Label Decomposition: Towards Long-Term Wireless Traffic Forecasting on Large-Scale Graphs. [[arXiv 2025]]([https://arxiv.org/abs/--](http://arxiv.org/abs/2501.06255)) [[Code]]([https://github.com/Anoise/PSLD](https://github.com/Anoise/WTFlib)).
 
   - [x] **PatchTST** - A Time Series is Worth 64 Words: Long-term Forecasting with Transformers. [[ICLR 2023]](https://openreview.net/pdf?id=Jbdc0vTOcol) [[Code]](https://github.com/thuml/Time-Series-Library/blob/main/models/PatchTST.py).
 
